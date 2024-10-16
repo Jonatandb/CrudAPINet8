@@ -1,0 +1,40 @@
+# Compilación de dependencias
+bin/
+obj/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Certificados de desarrollo
+*.pfx
+*.p12
+*.key
+
+# Configuraciones locales de IDE
+.vs/
+.vscode/
+
+# Archivos de solución de usuario de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de depuración
+*.log
+*.pdb
+*.tlog
+
+# Archivos temporales de MSBuild
+*.cache
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+
+# Logs
+*.log
+
