@@ -20,6 +20,11 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.Use(async (context, next) => {
+	Console.WriteLine($"Request: {context.Request.Method} {context.Request.Path}");
+	await next.Invoke();
+});
+
 app.MapControllers();
 
 app.Run();
