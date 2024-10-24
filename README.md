@@ -106,15 +106,16 @@ dotnet tool install --global dotnet-aspnet-codegenerator
 
 Package installation:
 ```bash
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+```
+  - Package required by dotnet-aspnet-codegenerator.
+
+Package installation:
+```bash
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
 ```
   - Code Generator of Controllers and Views at project level.
 
-Package installation:
-```bash
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-```
-  - Package required by dotnet-aspnet-codegenerator.
 
 Product controller generation:
 ```bash
