@@ -1,7 +1,7 @@
 # Web API CRUD - Net 8
 - https://github.com/Jonatandb/CrudAPINet8
 
-### Setup: 
+### Setup:
 
 #### Set connection string in `appsettings.json`:
  - Add this:
@@ -27,12 +27,12 @@ Visit:
 - http://localhost:5226/swagger 🎉
 
 
---- 
+---
 
 ### Neon Database Project (Free PostgreSQL Database)
 - https://console.neon.tech/app/projects/yellow-fog-04617934/branches/br-silent-hill-a8a5qfpq/tables?database=store
 
---- 
+---
 
 # Performed steps:
 1: Project creation
@@ -40,7 +40,7 @@ Visit:
 dotnet new webapi -n CrudAPINet8 -controllers
 ```
 
-2: Product model added: 
+2: Product model added:
 - Models/Product.cs
 
 3: Package installation:
@@ -49,7 +49,7 @@ dotnet tool install --global dotnet-ef
 ```
   - Tool to work with EFCore through the command line.
 
-4: Package installation: 
+4: Package installation:
 ```bash
 dotnet add package Microsoft.EntityFrameworkCore
 ```
@@ -134,3 +134,7 @@ dotnet run
 ```
 Visit:
 - http://localhost:5226/swagger 🎉
+- http://localhost:5226/api/products
+
+![Swagger screenshot](Swagger_Screenshot.png)
+![JSON response screenshot](JSON_response.png)
